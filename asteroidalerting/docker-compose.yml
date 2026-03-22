@@ -4,7 +4,7 @@ services:
     container_name: mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: password  # Root password
+      MYSQL_ROOT_PASSWORD:  root  # Root password
       MYSQL_DATABASE:  asteroid_alerting
     ports:
       - "3307:3306"   # Expose MySQL port
